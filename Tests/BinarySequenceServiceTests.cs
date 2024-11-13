@@ -4,9 +4,7 @@ using Xunit.Abstractions;
 namespace Tests;
 
 public class BinarySequenceServiceTests(ITestOutputHelper output)
-{
-    //private readonly ITestOutputHelper _output = output;
-    
+{ 
     [Theory]
     [InlineData(1, 7)]    
     [InlineData(2, 11)]   
